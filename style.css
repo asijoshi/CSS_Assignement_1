@@ -1,0 +1,162 @@
+.container {
+  position: relative;
+  /* background-color: antiquewhite; */
+
+  width: 100%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+.navbar-container {
+  position: absolute;
+  /* left: 16px; */
+  display: flex;  
+  /* background-color: aqua; */
+
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  top: 10px;
+  left: 20px;
+}
+
+.list{
+  position: relative;
+  display: flex;  
+  float: left;
+  margin-left: 50%;
+}
+
+.list-item{
+  font-family: "Orbitron";    
+  list-style-type: none;
+}
+
+.list-item:hover{
+  font-family: "Orbitron";    
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.list:active{
+  font-family: "Orbitron";    
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+
+li{
+  padding-left: 5px;
+  padding-right: 35px;
+  /* background-color:  aquamarine; */
+}
+
+.button-group{
+  position: absolute;
+  left: 1050px;
+  display: flex;  
+  float: right;
+  /* background-color: blue; */
+}
+
+.hero-container{
+  position: relative;
+  width: 100%;
+  /*background-color: mediumpurple;
+
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: auto; 
+  margin-right: 0; */
+}
+
+.hero-container-right{
+  position: absolute;
+  float: right;
+  /* background-color: hotpink; */
+
+  font-family: "Poppins";    
+  margin-left: 50%;
+  top: 200px;
+  width: 50%;
+}
+
+.square{
+    display: block;
+    float: left;
+    position: absolute;
+    top: 425px;
+    left: 225px;
+    z-index: -1;
+    width: 10px;  
+    height: auto;  
+}
+
+.star{
+  position: absolute;
+  float: right;
+  padding-left: 90%;
+  top: 150px;
+}
+
+.globe{
+  position: absolute;
+  float: left;
+  padding-left: 50%;
+  top: 90px
+}
+
+img[src*="/assets/Image.png"] { 
+  /* background: url("/path/to/newimage.png") no-repeat;  */
+  z-index: 3;
+  position: absolute;
+  float: left;
+  display: flex;
+  top:125px;
+  left: 20px;
+}
+
+.icons{
+  padding-left: 100px;
+  padding-right: 60px;
+}
+
+.contact-heading{
+  align-self: flex-end;
+} 
+
+.button-email{
+    background-color: transparent;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.button-join{
+  background-color: transparent;
+  border-radius: 10%;
+  padding-left: 5%;
+  padding-right: 5%;  
+} 
+
+.nav-button{
+  background-color: transparent;
+  border-radius: 10%;
+  padding-left: 5%;
+  padding-right: 5%;  
+}
+
+.search-icon{
+  width:50%;
+  height: 50%;
+}
